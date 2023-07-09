@@ -8,3 +8,5 @@
 - [database/sql](./database/sql) - [在 Go 中如何使用 database/sql 来操作数据库](https://jianghushinian.cn/2023/06/05/how-to-use-database-sql-to-operate-database-in-go/)
 
 - [sqlx](./sqlx) - [在 Go 中使用 sqlx 替代 database/sql 操作数据库](https://jianghushinian.cn/2023/06/15/using-sqlx-instead-of-database-sql-for-database-operations-in-go/)
+
+- [test/getting-started](./test/getting-started) - [在 Go 中如何编写测试代码](https://jianghushinian.cn/2023/07/09/how-to-write-testing-in-go/)
