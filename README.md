@@ -10,3 +10,5 @@
 - [sqlx](./sqlx) - [在 Go 中使用 sqlx 替代 database/sql 操作数据库](https://jianghushinian.cn/2023/06/15/using-sqlx-instead-of-database-sql-for-database-operations-in-go/)
 
 - [test/getting-started](./test/getting-started) - [在 Go 中如何编写测试代码](https://jianghushinian.cn/2023/07/09/how-to-write-testing-in-go/)
+
+- [test/http](./test/http) - [在 Go 语言单元测试中如何解决 HTTP 网络依赖问题](https://jianghushinian.cn/2023/07/15/how-to-resolve-http-dependencies-in-go-testing/)
