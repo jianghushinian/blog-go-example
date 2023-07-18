@@ -12,3 +12,7 @@
 - [test/getting-started](./test/getting-started) - [在 Go 中如何编写测试代码](https://jianghushinian.cn/2023/07/09/how-to-write-testing-in-go/)
 
 - [test/http](./test/http) - [在 Go 语言单元测试中如何解决 HTTP 网络依赖问题](https://jianghushinian.cn/2023/07/15/how-to-resolve-http-dependencies-in-go-testing/)
+
+- [test/mysql](./test/mysql) - [在 Go 语言单元测试中如何解决 MySQL 存储依赖问题](https://jianghushinian.cn/2023/07/16/how-to-resolve-mysql-dependencies-in-go-testing/)
+
+- [test/redis](./test/redis) - [在 Go 语言单元测试中如何解决 Redis 存储依赖问题](https://jianghushinian.cn/2023/07/18/how-to-resolve-redis-dependencies-in-go-testing/)
