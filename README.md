@@ -16,3 +16,5 @@
 - [test/mysql](./test/mysql) - [在 Go 语言单元测试中如何解决 MySQL 存储依赖问题](https://jianghushinian.cn/2023/07/16/how-to-resolve-mysql-dependencies-in-go-testing/)
 
 - [test/redis](./test/redis) - [在 Go 语言单元测试中如何解决 Redis 存储依赖问题](https://jianghushinian.cn/2023/07/18/how-to-resolve-redis-dependencies-in-go-testing/)
+
+- [test/file](./test/file) - [在 Go 语言单元测试中如何解决文件依赖问题](https://jianghushinian.cn/2023/07/19/how-to-resolve-file-dependencies-in-go-testing/)
