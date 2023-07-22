@@ -20,3 +20,5 @@
 - [test/file](./test/file) - [在 Go 语言单元测试中如何解决文件依赖问题](https://jianghushinian.cn/2023/07/19/how-to-resolve-file-dependencies-in-go-testing/)
 
 - [test/testable](./test/testable) - [在 Go 中如何编写出可测试的代码](https://jianghushinian.cn/2023/07/22/how-to-write-testable-code-in-go/)
+
+- [test/monkeypatching](./test/monkeypatching) - [测试代码终极解决方案 Monkey Patching](https://jianghushinian.cn/2023/07/22/the-ultimate-solution-to-test-code-monkey-patching/)
