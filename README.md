@@ -22,3 +22,5 @@
 - [test/testable](./test/testable) - [在 Go 中如何编写出可测试的代码](https://jianghushinian.cn/2023/07/22/how-to-write-testable-code-in-go/)
 
 - [test/monkeypatching](./test/monkeypatching) - [测试代码终极解决方案 Monkey Patching](https://jianghushinian.cn/2023/07/22/the-ultimate-solution-to-test-code-monkey-patching/)
+
+- [test/supplement](./test/supplement) - [在 Go 中如何编写测试代码内容补充](https://jianghushinian.cn/2023/07/23/how-to-write-testing-in-go-content-supplement/)
