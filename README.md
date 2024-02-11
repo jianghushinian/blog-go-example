@@ -1,4 +1,5 @@
 # blog-go-example
+
 个人博客中 Go 相关的示例代码
 
 - [cobra](./cobra) - [Go 语言现代命令行框架 Cobra 详解](https://jianghushinian.cn/2023/05/08/go-modern-command-line-framework-cobra-details/)
@@ -24,3 +25,5 @@
 - [test/monkeypatching](./test/monkeypatching) - [测试代码终极解决方案 Monkey Patching](https://jianghushinian.cn/2023/07/22/the-ultimate-solution-to-test-code-monkey-patching/)
 
 - [test/supplement](./test/supplement) - [在 Go 中如何编写测试代码内容补充](https://jianghushinian.cn/2023/07/23/how-to-write-testing-in-go-content-supplement/)
+
+- [2024-spring-festival-gala-magic](./2024-spring-festival-gala-magic) - [用 Go 语言实现刘谦 2024 春晚魔术，神还原「尼格买提」汗流浃背的尴尬瞬间!](https://jianghushinian.cn/2024/02/10/use-go-to-realize-liu-qian-s-2024-spring-festival-gala-magic/)
