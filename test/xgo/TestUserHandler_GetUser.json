@@ -1,0 +1,1369 @@
+{
+  "Begin": "2024-05-19T15:58:31.005648+08:00",
+  "Children": [
+    {
+      "FuncInfo": {
+        "Pkg": "github.com/jianghushinian/blog-go-example/test/xgo",
+        "IdentityName": "TestUserHandler_GetUser",
+        "Name": "TestUserHandler_GetUser",
+        "RecvType": "",
+        "RecvPtr": false,
+        "Generic": false,
+        "File": "~/blog-go-example/test/xgo/main_test.go",
+        "Line": 38,
+        "RecvName": "",
+        "ArgNames": [
+          "t"
+        ],
+        "ResNames": null,
+        "FirstArgCtx": false,
+        "LastResultErr": false
+      },
+      "Begin": 4250,
+      "End": 615083,
+      "Args": {
+        "t": {}
+      },
+      "Results": {},
+      "Panic": false,
+      "Error": "",
+      "Children": [
+        {
+          "FuncInfo": {
+            "Pkg": "github.com/jianghushinian/blog-go-example/test/xgo",
+            "IdentityName": "NewUserHandler",
+            "Name": "NewUserHandler",
+            "RecvType": "",
+            "RecvPtr": false,
+            "Generic": false,
+            "File": "~/blog-go-example/test/xgo/main.go",
+            "Line": 26,
+            "RecvName": "",
+            "ArgNames": [
+              "store"
+            ],
+            "ResNames": [
+              "_r0"
+            ],
+            "FirstArgCtx": false,
+            "LastResultErr": false
+          },
+          "Begin": 7750,
+          "End": 32500,
+          "Args": {
+            "store": {
+              "Error": null,
+              "RowsAffected": 0,
+              "Statement": null
+            }
+          },
+          "Results": {
+            "_r0": {}
+          },
+          "Panic": false,
+          "Error": "",
+          "Children": null
+        },
+        {
+          "FuncInfo": {
+            "Pkg": "github.com/jianghushinian/blog-go-example/test/xgo",
+            "IdentityName": "setupRouter",
+            "Name": "setupRouter",
+            "RecvType": "",
+            "RecvPtr": false,
+            "Generic": false,
+            "File": "~/blog-go-example/test/xgo/main.go",
+            "Line": 74,
+            "RecvName": "",
+            "ArgNames": [
+              "handler"
+            ],
+            "ResNames": [
+              "_r0"
+            ],
+            "FirstArgCtx": false,
+            "LastResultErr": false
+          },
+          "Begin": 33792,
+          "End": 151875,
+          "Args": {
+            "handler": {}
+          },
+          "Results": {
+            "_r0": {
+              "RedirectTrailingSlash": true,
+              "RedirectFixedPath": true,
+              "HandleMethodNotAllowed": true,
+              "HandleOPTIONS": true,
+              "GlobalOPTIONS": null,
+              "NotFound": null,
+              "MethodNotAllowed": null,
+              "PanicHandler": {}
+            }
+          },
+          "Panic": false,
+          "Error": "",
+          "Children": [
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/julienschmidt/httprouter",
+                "IdentityName": "New",
+                "Name": "New",
+                "RecvType": "",
+                "RecvPtr": false,
+                "Generic": false,
+                "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/router.go",
+                "Line": 192,
+                "RecvName": "",
+                "ArgNames": null,
+                "ResNames": [
+                  "_r0"
+                ],
+                "FirstArgCtx": false,
+                "LastResultErr": false
+              },
+              "Begin": 35083,
+              "End": 35667,
+              "Args": {},
+              "Results": {
+                "_r0": {
+                  "RedirectTrailingSlash": true,
+                  "RedirectFixedPath": true,
+                  "HandleMethodNotAllowed": true,
+                  "HandleOPTIONS": true,
+                  "GlobalOPTIONS": null,
+                  "NotFound": null,
+                  "MethodNotAllowed": null,
+                  "PanicHandler": {}
+                }
+              },
+              "Panic": false,
+              "Error": "",
+              "Children": null
+            },
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/julienschmidt/httprouter",
+                "IdentityName": "(*Router).POST",
+                "Name": "POST",
+                "RecvType": "Router",
+                "RecvPtr": true,
+                "Generic": false,
+                "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/router.go",
+                "Line": 217,
+                "RecvName": "r",
+                "ArgNames": [
+                  "path",
+                  "handle"
+                ],
+                "ResNames": null,
+                "FirstArgCtx": false,
+                "LastResultErr": false
+              },
+              "Begin": 37042,
+              "End": 138375,
+              "Args": {
+                "r": {
+                  "RedirectTrailingSlash": true,
+                  "RedirectFixedPath": true,
+                  "HandleMethodNotAllowed": true,
+                  "HandleOPTIONS": true,
+                  "GlobalOPTIONS": null,
+                  "NotFound": null,
+                  "MethodNotAllowed": null,
+                  "PanicHandler": {}
+                },
+                "path": "/users",
+                "handle": {}
+              },
+              "Results": {},
+              "Panic": false,
+              "Error": "",
+              "Children": [
+                {
+                  "FuncInfo": {
+                    "Pkg": "github.com/julienschmidt/httprouter",
+                    "IdentityName": "(*Router).Handle",
+                    "Name": "Handle",
+                    "RecvType": "Router",
+                    "RecvPtr": true,
+                    "Generic": false,
+                    "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/router.go",
+                    "Line": 244,
+                    "RecvName": "r",
+                    "ArgNames": [
+                      "method",
+                      "path",
+                      "handle"
+                    ],
+                    "ResNames": null,
+                    "FirstArgCtx": false,
+                    "LastResultErr": false
+                  },
+                  "Begin": 40625,
+                  "End": 138167,
+                  "Args": {
+                    "r": {
+                      "RedirectTrailingSlash": true,
+                      "RedirectFixedPath": true,
+                      "HandleMethodNotAllowed": true,
+                      "HandleOPTIONS": true,
+                      "GlobalOPTIONS": null,
+                      "NotFound": null,
+                      "MethodNotAllowed": null,
+                      "PanicHandler": {}
+                    },
+                    "method": "POST",
+                    "path": "/users",
+                    "handle": {}
+                  },
+                  "Results": {},
+                  "Panic": false,
+                  "Error": "",
+                  "Children": [
+                    {
+                      "FuncInfo": {
+                        "Pkg": "github.com/julienschmidt/httprouter",
+                        "IdentityName": "(*Router).allowed",
+                        "Name": "allowed",
+                        "RecvType": "Router",
+                        "RecvPtr": true,
+                        "Generic": false,
+                        "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/router.go",
+                        "Line": 327,
+                        "RecvName": "r",
+                        "ArgNames": [
+                          "path",
+                          "reqMethod"
+                        ],
+                        "ResNames": [
+                          "allow"
+                        ],
+                        "FirstArgCtx": false,
+                        "LastResultErr": false
+                      },
+                      "Begin": 61542,
+                      "End": 66542,
+                      "Args": {
+                        "r": {
+                          "RedirectTrailingSlash": true,
+                          "RedirectFixedPath": true,
+                          "HandleMethodNotAllowed": true,
+                          "HandleOPTIONS": true,
+                          "GlobalOPTIONS": null,
+                          "NotFound": null,
+                          "MethodNotAllowed": null,
+                          "PanicHandler": {}
+                        },
+                        "path": "*",
+                        "reqMethod": ""
+                      },
+                      "Results": {
+                        "allow": "OPTIONS, POST"
+                      },
+                      "Panic": false,
+                      "Error": "",
+                      "Children": null
+                    },
+                    {
+                      "FuncInfo": {
+                        "Pkg": "github.com/julienschmidt/httprouter",
+                        "IdentityName": "(*node).addRoute",
+                        "Name": "addRoute",
+                        "RecvType": "node",
+                        "RecvPtr": true,
+                        "Generic": false,
+                        "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/tree.go",
+                        "Line": 83,
+                        "RecvName": "n",
+                        "ArgNames": [
+                          "path",
+                          "handle"
+                        ],
+                        "ResNames": null,
+                        "FirstArgCtx": false,
+                        "LastResultErr": false
+                      },
+                      "Begin": 67958,
+                      "End": 137958,
+                      "Args": {
+                        "n": {},
+                        "path": "/users",
+                        "handle": {}
+                      },
+                      "Results": {},
+                      "Panic": false,
+                      "Error": "",
+                      "Children": [
+                        {
+                          "FuncInfo": {
+                            "Pkg": "github.com/julienschmidt/httprouter",
+                            "IdentityName": "countParams",
+                            "Name": "countParams",
+                            "RecvType": "",
+                            "RecvPtr": false,
+                            "Generic": false,
+                            "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/tree.go",
+                            "Line": 22,
+                            "RecvName": "",
+                            "ArgNames": [
+                              "path"
+                            ],
+                            "ResNames": [
+                              "_r0"
+                            ],
+                            "FirstArgCtx": false,
+                            "LastResultErr": false
+                          },
+                          "Begin": 135333,
+                          "End": 135833,
+                          "Args": {
+                            "path": "/users"
+                          },
+                          "Results": {
+                            "_r0": 0
+                          },
+                          "Panic": false,
+                          "Error": "",
+                          "Children": null
+                        },
+                        {
+                          "FuncInfo": {
+                            "Pkg": "github.com/julienschmidt/httprouter",
+                            "IdentityName": "(*node).insertChild",
+                            "Name": "insertChild",
+                            "RecvType": "node",
+                            "RecvPtr": true,
+                            "Generic": false,
+                            "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/tree.go",
+                            "Line": 217,
+                            "RecvName": "n",
+                            "ArgNames": [
+                              "numParams",
+                              "path",
+                              "fullPath",
+                              "handle"
+                            ],
+                            "ResNames": null,
+                            "FirstArgCtx": false,
+                            "LastResultErr": false
+                          },
+                          "Begin": 137417,
+                          "End": 137750,
+                          "Args": {
+                            "n": {},
+                            "numParams": 0,
+                            "path": "/users",
+                            "fullPath": "/users",
+                            "handle": {}
+                          },
+                          "Results": {},
+                          "Panic": false,
+                          "Error": "",
+                          "Children": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/julienschmidt/httprouter",
+                "IdentityName": "(*Router).GET",
+                "Name": "GET",
+                "RecvType": "Router",
+                "RecvPtr": true,
+                "Generic": false,
+                "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/router.go",
+                "Line": 202,
+                "RecvName": "r",
+                "ArgNames": [
+                  "path",
+                  "handle"
+                ],
+                "ResNames": null,
+                "FirstArgCtx": false,
+                "LastResultErr": false
+              },
+              "Begin": 139542,
+              "End": 151708,
+              "Args": {
+                "r": {
+                  "RedirectTrailingSlash": true,
+                  "RedirectFixedPath": true,
+                  "HandleMethodNotAllowed": true,
+                  "HandleOPTIONS": true,
+                  "GlobalOPTIONS": null,
+                  "NotFound": null,
+                  "MethodNotAllowed": null,
+                  "PanicHandler": {}
+                },
+                "path": "/users/:id",
+                "handle": {}
+              },
+              "Results": {},
+              "Panic": false,
+              "Error": "",
+              "Children": [
+                {
+                  "FuncInfo": {
+                    "Pkg": "github.com/julienschmidt/httprouter",
+                    "IdentityName": "(*Router).Handle",
+                    "Name": "Handle",
+                    "RecvType": "Router",
+                    "RecvPtr": true,
+                    "Generic": false,
+                    "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/router.go",
+                    "Line": 244,
+                    "RecvName": "r",
+                    "ArgNames": [
+                      "method",
+                      "path",
+                      "handle"
+                    ],
+                    "ResNames": null,
+                    "FirstArgCtx": false,
+                    "LastResultErr": false
+                  },
+                  "Begin": 141708,
+                  "End": 151500,
+                  "Args": {
+                    "r": {
+                      "RedirectTrailingSlash": true,
+                      "RedirectFixedPath": true,
+                      "HandleMethodNotAllowed": true,
+                      "HandleOPTIONS": true,
+                      "GlobalOPTIONS": null,
+                      "NotFound": null,
+                      "MethodNotAllowed": null,
+                      "PanicHandler": {}
+                    },
+                    "method": "GET",
+                    "path": "/users/:id",
+                    "handle": {}
+                  },
+                  "Results": {},
+                  "Panic": false,
+                  "Error": "",
+                  "Children": [
+                    {
+                      "FuncInfo": {
+                        "Pkg": "github.com/julienschmidt/httprouter",
+                        "IdentityName": "(*Router).allowed",
+                        "Name": "allowed",
+                        "RecvType": "Router",
+                        "RecvPtr": true,
+                        "Generic": false,
+                        "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/router.go",
+                        "Line": 327,
+                        "RecvName": "r",
+                        "ArgNames": [
+                          "path",
+                          "reqMethod"
+                        ],
+                        "ResNames": [
+                          "allow"
+                        ],
+                        "FirstArgCtx": false,
+                        "LastResultErr": false
+                      },
+                      "Begin": 143250,
+                      "End": 144208,
+                      "Args": {
+                        "r": {
+                          "RedirectTrailingSlash": true,
+                          "RedirectFixedPath": true,
+                          "HandleMethodNotAllowed": true,
+                          "HandleOPTIONS": true,
+                          "GlobalOPTIONS": null,
+                          "NotFound": null,
+                          "MethodNotAllowed": null,
+                          "PanicHandler": {}
+                        },
+                        "path": "*",
+                        "reqMethod": ""
+                      },
+                      "Results": {
+                        "allow": "GET, OPTIONS, POST"
+                      },
+                      "Panic": false,
+                      "Error": "",
+                      "Children": null
+                    },
+                    {
+                      "FuncInfo": {
+                        "Pkg": "github.com/julienschmidt/httprouter",
+                        "IdentityName": "(*node).addRoute",
+                        "Name": "addRoute",
+                        "RecvType": "node",
+                        "RecvPtr": true,
+                        "Generic": false,
+                        "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/tree.go",
+                        "Line": 83,
+                        "RecvName": "n",
+                        "ArgNames": [
+                          "path",
+                          "handle"
+                        ],
+                        "ResNames": null,
+                        "FirstArgCtx": false,
+                        "LastResultErr": false
+                      },
+                      "Begin": 145083,
+                      "End": 151375,
+                      "Args": {
+                        "n": {},
+                        "path": "/users/:id",
+                        "handle": {}
+                      },
+                      "Results": {},
+                      "Panic": false,
+                      "Error": "",
+                      "Children": [
+                        {
+                          "FuncInfo": {
+                            "Pkg": "github.com/julienschmidt/httprouter",
+                            "IdentityName": "countParams",
+                            "Name": "countParams",
+                            "RecvType": "",
+                            "RecvPtr": false,
+                            "Generic": false,
+                            "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/tree.go",
+                            "Line": 22,
+                            "RecvName": "",
+                            "ArgNames": [
+                              "path"
+                            ],
+                            "ResNames": [
+                              "_r0"
+                            ],
+                            "FirstArgCtx": false,
+                            "LastResultErr": false
+                          },
+                          "Begin": 149208,
+                          "End": 149542,
+                          "Args": {
+                            "path": "/users/:id"
+                          },
+                          "Results": {
+                            "_r0": 1
+                          },
+                          "Panic": false,
+                          "Error": "",
+                          "Children": null
+                        },
+                        {
+                          "FuncInfo": {
+                            "Pkg": "github.com/julienschmidt/httprouter",
+                            "IdentityName": "(*node).insertChild",
+                            "Name": "insertChild",
+                            "RecvType": "node",
+                            "RecvPtr": true,
+                            "Generic": false,
+                            "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/tree.go",
+                            "Line": 217,
+                            "RecvName": "n",
+                            "ArgNames": [
+                              "numParams",
+                              "path",
+                              "fullPath",
+                              "handle"
+                            ],
+                            "ResNames": null,
+                            "FirstArgCtx": false,
+                            "LastResultErr": false
+                          },
+                          "Begin": 150500,
+                          "End": 151208,
+                          "Args": {
+                            "n": {},
+                            "numParams": 0,
+                            "path": "/users/:id",
+                            "fullPath": "/users/:id",
+                            "handle": {}
+                          },
+                          "Results": {},
+                          "Panic": false,
+                          "Error": "",
+                          "Children": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "FuncInfo": {
+            "Pkg": "github.com/julienschmidt/httprouter",
+            "IdentityName": "(*Router).ServeHTTP",
+            "Name": "ServeHTTP",
+            "RecvType": "Router",
+            "RecvPtr": true,
+            "Generic": false,
+            "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/router.go",
+            "Line": 378,
+            "RecvName": "r",
+            "ArgNames": [
+              "w",
+              "req"
+            ],
+            "ResNames": null,
+            "FirstArgCtx": false,
+            "LastResultErr": false
+          },
+          "Begin": 385250,
+          "End": 589625,
+          "Args": {
+            "r": {
+              "RedirectTrailingSlash": true,
+              "RedirectFixedPath": true,
+              "HandleMethodNotAllowed": true,
+              "HandleOPTIONS": true,
+              "GlobalOPTIONS": null,
+              "NotFound": null,
+              "MethodNotAllowed": null,
+              "PanicHandler": {}
+            },
+            "w": {
+              "Code": 200,
+              "HeaderMap": {
+                "Content-Type": [
+                  "application/json"
+                ]
+              },
+              "Body": {},
+              "Flushed": false
+            },
+            "req": {
+              "Method": "GET",
+              "URL": {
+                "Scheme": "",
+                "Opaque": "",
+                "User": null,
+                "Host": "",
+                "Path": "/users/1",
+                "RawPath": "",
+                "OmitHost": false,
+                "ForceQuery": false,
+                "RawQuery": "",
+                "Fragment": "",
+                "RawFragment": ""
+              },
+              "Proto": "HTTP/1.1",
+              "ProtoMajor": 1,
+              "ProtoMinor": 1,
+              "Header": {},
+              "Body": {},
+              "GetBody": {},
+              "ContentLength": 0,
+              "TransferEncoding": null,
+              "Close": false,
+              "Host": "example.com",
+              "Form": null,
+              "PostForm": null,
+              "MultipartForm": null,
+              "Trailer": null,
+              "RemoteAddr": "192.0.2.1:1234",
+              "RequestURI": "/users/1",
+              "TLS": null,
+              "Cancel": {},
+              "Response": null
+            }
+          },
+          "Results": {},
+          "Panic": false,
+          "Error": "",
+          "Children": [
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/julienschmidt/httprouter",
+                "IdentityName": "(*node).getValue",
+                "Name": "getValue",
+                "RecvType": "node",
+                "RecvPtr": true,
+                "Generic": false,
+                "File": "/Users/jianghushinian/go/pkg/mod/github.com/julienschmidt/httprouter@v1.3.0/tree.go",
+                "Line": 339,
+                "RecvName": "n",
+                "ArgNames": [
+                  "path"
+                ],
+                "ResNames": [
+                  "handle",
+                  "p",
+                  "tsr"
+                ],
+                "FirstArgCtx": false,
+                "LastResultErr": false
+              },
+              "Begin": 387292,
+              "End": 388167,
+              "Args": {
+                "n": {},
+                "path": "1"
+              },
+              "Results": {
+                "handle": {},
+                "p": [
+                  {
+                    "Key": "id",
+                    "Value": "1"
+                  }
+                ],
+                "tsr": false
+              },
+              "Panic": false,
+              "Error": "",
+              "Children": null
+            },
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/jianghushinian/blog-go-example/test/xgo",
+                "IdentityName": "(*UserHandler).GetUser",
+                "Name": "GetUser",
+                "RecvType": "UserHandler",
+                "RecvPtr": true,
+                "Generic": false,
+                "File": "~/blog-go-example/test/xgo/main.go",
+                "Line": 60,
+                "RecvName": "h",
+                "ArgNames": [
+                  "w",
+                  "r",
+                  "ps"
+                ],
+                "ResNames": null,
+                "FirstArgCtx": false,
+                "LastResultErr": false
+              },
+              "Begin": 389625,
+              "End": 589333,
+              "Args": {
+                "h": {},
+                "w": {
+                  "Code": 200,
+                  "HeaderMap": {
+                    "Content-Type": [
+                      "application/json"
+                    ]
+                  },
+                  "Body": {},
+                  "Flushed": false
+                },
+                "r": {
+                  "Method": "GET",
+                  "URL": {
+                    "Scheme": "",
+                    "Opaque": "",
+                    "User": null,
+                    "Host": "",
+                    "Path": "/users/1",
+                    "RawPath": "",
+                    "OmitHost": false,
+                    "ForceQuery": false,
+                    "RawQuery": "",
+                    "Fragment": "",
+                    "RawFragment": ""
+                  },
+                  "Proto": "HTTP/1.1",
+                  "ProtoMajor": 1,
+                  "ProtoMinor": 1,
+                  "Header": {},
+                  "Body": {},
+                  "GetBody": {},
+                  "ContentLength": 0,
+                  "TransferEncoding": null,
+                  "Close": false,
+                  "Host": "example.com",
+                  "Form": null,
+                  "PostForm": null,
+                  "MultipartForm": null,
+                  "Trailer": null,
+                  "RemoteAddr": "192.0.2.1:1234",
+                  "RequestURI": "/users/1",
+                  "TLS": null,
+                  "Cancel": {},
+                  "Response": null
+                },
+                "ps": [
+                  {
+                    "Key": "id",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "Results": {},
+              "Panic": false,
+              "Error": "",
+              "Children": [
+                {
+                  "FuncInfo": {
+                    "Pkg": "gorm.io/gorm",
+                    "IdentityName": "(*DB).First",
+                    "Name": "First",
+                    "RecvType": "DB",
+                    "RecvPtr": true,
+                    "Generic": false,
+                    "File": "/Users/jianghushinian/go/pkg/mod/gorm.io/gorm@v1.25.10/finisher_api.go",
+                    "Line": 118,
+                    "RecvName": "db",
+                    "ArgNames": [
+                      "dest",
+                      "conds"
+                    ],
+                    "ResNames": [
+                      "tx"
+                    ],
+                    "FirstArgCtx": false,
+                    "LastResultErr": false
+                  },
+                  "Begin": 414583,
+                  "End": 530625,
+                  "Args": {
+                    "db": {
+                      "Error": null,
+                      "RowsAffected": 0,
+                      "Statement": null
+                    },
+                    "dest": {
+                      "ID": 1,
+                      "Name": "user1"
+                    },
+                    "conds": [
+                      1
+                    ]
+                  },
+                  "Results": {
+                    "tx": {
+                      "Error": null,
+                      "RowsAffected": 0,
+                      "Statement": null
+                    }
+                  },
+                  "Panic": false,
+                  "Error": "",
+                  "Children": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "FuncInfo": {
+            "Pkg": "github.com/stretchr/testify/assert",
+            "IdentityName": "Equal",
+            "Name": "Equal",
+            "RecvType": "",
+            "RecvPtr": false,
+            "Generic": false,
+            "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+            "Line": 454,
+            "RecvName": "",
+            "ArgNames": [
+              "t",
+              "expected",
+              "actual",
+              "msgAndArgs"
+            ],
+            "ResNames": [
+              "_r0"
+            ],
+            "FirstArgCtx": false,
+            "LastResultErr": false
+          },
+          "Begin": 591292,
+          "End": 599292,
+          "Args": {
+            "t": {},
+            "expected": 200,
+            "actual": 200,
+            "msgAndArgs": null
+          },
+          "Results": {
+            "_r0": true
+          },
+          "Panic": false,
+          "Error": "",
+          "Children": [
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/stretchr/testify/assert",
+                "IdentityName": "validateEqualArgs",
+                "Name": "validateEqualArgs",
+                "RecvType": "",
+                "RecvPtr": false,
+                "Generic": false,
+                "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                "Line": 477,
+                "RecvName": "",
+                "ArgNames": [
+                  "expected",
+                  "actual"
+                ],
+                "ResNames": [
+                  "_r0"
+                ],
+                "FirstArgCtx": false,
+                "LastResultErr": true
+              },
+              "Begin": 593292,
+              "End": 597667,
+              "Args": {
+                "expected": 200,
+                "actual": 200
+              },
+              "Results": {},
+              "Panic": false,
+              "Error": "",
+              "Children": [
+                {
+                  "FuncInfo": {
+                    "Pkg": "github.com/stretchr/testify/assert",
+                    "IdentityName": "isFunction",
+                    "Name": "isFunction",
+                    "RecvType": "",
+                    "RecvPtr": false,
+                    "Generic": false,
+                    "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                    "Line": 1851,
+                    "RecvName": "",
+                    "ArgNames": [
+                      "arg"
+                    ],
+                    "ResNames": [
+                      "_r0"
+                    ],
+                    "FirstArgCtx": false,
+                    "LastResultErr": false
+                  },
+                  "Begin": 594333,
+                  "End": 594708,
+                  "Args": {
+                    "arg": 200
+                  },
+                  "Results": {
+                    "_r0": false
+                  },
+                  "Panic": false,
+                  "Error": "",
+                  "Children": null
+                },
+                {
+                  "FuncInfo": {
+                    "Pkg": "github.com/stretchr/testify/assert",
+                    "IdentityName": "isFunction",
+                    "Name": "isFunction",
+                    "RecvType": "",
+                    "RecvPtr": false,
+                    "Generic": false,
+                    "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                    "Line": 1851,
+                    "RecvName": "",
+                    "ArgNames": [
+                      "arg"
+                    ],
+                    "ResNames": [
+                      "_r0"
+                    ],
+                    "FirstArgCtx": false,
+                    "LastResultErr": false
+                  },
+                  "Begin": 595583,
+                  "End": 595917,
+                  "Args": {
+                    "arg": 200
+                  },
+                  "Results": {
+                    "_r0": false
+                  },
+                  "Panic": false,
+                  "Error": "",
+                  "Children": null
+                }
+              ]
+            },
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/stretchr/testify/assert",
+                "IdentityName": "ObjectsAreEqual",
+                "Name": "ObjectsAreEqual",
+                "RecvType": "",
+                "RecvPtr": false,
+                "Generic": false,
+                "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                "Line": 58,
+                "RecvName": "",
+                "ArgNames": [
+                  "expected",
+                  "actual"
+                ],
+                "ResNames": [
+                  "_r0"
+                ],
+                "FirstArgCtx": false,
+                "LastResultErr": false
+              },
+              "Begin": 598667,
+              "End": 599083,
+              "Args": {
+                "expected": 200,
+                "actual": 200
+              },
+              "Results": {
+                "_r0": true
+              },
+              "Panic": false,
+              "Error": "",
+              "Children": null
+            }
+          ]
+        },
+        {
+          "FuncInfo": {
+            "Pkg": "github.com/stretchr/testify/assert",
+            "IdentityName": "Equal",
+            "Name": "Equal",
+            "RecvType": "",
+            "RecvPtr": false,
+            "Generic": false,
+            "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+            "Line": 454,
+            "RecvName": "",
+            "ArgNames": [
+              "t",
+              "expected",
+              "actual",
+              "msgAndArgs"
+            ],
+            "ResNames": [
+              "_r0"
+            ],
+            "FirstArgCtx": false,
+            "LastResultErr": false
+          },
+          "Begin": 600458,
+          "End": 606833,
+          "Args": {
+            "t": {},
+            "expected": "application/json",
+            "actual": "application/json",
+            "msgAndArgs": null
+          },
+          "Results": {
+            "_r0": true
+          },
+          "Panic": false,
+          "Error": "",
+          "Children": [
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/stretchr/testify/assert",
+                "IdentityName": "validateEqualArgs",
+                "Name": "validateEqualArgs",
+                "RecvType": "",
+                "RecvPtr": false,
+                "Generic": false,
+                "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                "Line": 477,
+                "RecvName": "",
+                "ArgNames": [
+                  "expected",
+                  "actual"
+                ],
+                "ResNames": [
+                  "_r0"
+                ],
+                "FirstArgCtx": false,
+                "LastResultErr": true
+              },
+              "Begin": 602083,
+              "End": 605083,
+              "Args": {
+                "expected": "application/json",
+                "actual": "application/json"
+              },
+              "Results": {},
+              "Panic": false,
+              "Error": "",
+              "Children": [
+                {
+                  "FuncInfo": {
+                    "Pkg": "github.com/stretchr/testify/assert",
+                    "IdentityName": "isFunction",
+                    "Name": "isFunction",
+                    "RecvType": "",
+                    "RecvPtr": false,
+                    "Generic": false,
+                    "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                    "Line": 1851,
+                    "RecvName": "",
+                    "ArgNames": [
+                      "arg"
+                    ],
+                    "ResNames": [
+                      "_r0"
+                    ],
+                    "FirstArgCtx": false,
+                    "LastResultErr": false
+                  },
+                  "Begin": 603250,
+                  "End": 603625,
+                  "Args": {
+                    "arg": "application/json"
+                  },
+                  "Results": {
+                    "_r0": false
+                  },
+                  "Panic": false,
+                  "Error": "",
+                  "Children": null
+                },
+                {
+                  "FuncInfo": {
+                    "Pkg": "github.com/stretchr/testify/assert",
+                    "IdentityName": "isFunction",
+                    "Name": "isFunction",
+                    "RecvType": "",
+                    "RecvPtr": false,
+                    "Generic": false,
+                    "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                    "Line": 1851,
+                    "RecvName": "",
+                    "ArgNames": [
+                      "arg"
+                    ],
+                    "ResNames": [
+                      "_r0"
+                    ],
+                    "FirstArgCtx": false,
+                    "LastResultErr": false
+                  },
+                  "Begin": 604500,
+                  "End": 604792,
+                  "Args": {
+                    "arg": "application/json"
+                  },
+                  "Results": {
+                    "_r0": false
+                  },
+                  "Panic": false,
+                  "Error": "",
+                  "Children": null
+                }
+              ]
+            },
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/stretchr/testify/assert",
+                "IdentityName": "ObjectsAreEqual",
+                "Name": "ObjectsAreEqual",
+                "RecvType": "",
+                "RecvPtr": false,
+                "Generic": false,
+                "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                "Line": 58,
+                "RecvName": "",
+                "ArgNames": [
+                  "expected",
+                  "actual"
+                ],
+                "ResNames": [
+                  "_r0"
+                ],
+                "FirstArgCtx": false,
+                "LastResultErr": false
+              },
+              "Begin": 606000,
+              "End": 606708,
+              "Args": {
+                "expected": "application/json",
+                "actual": "application/json"
+              },
+              "Results": {
+                "_r0": true
+              },
+              "Panic": false,
+              "Error": "",
+              "Children": null
+            }
+          ]
+        },
+        {
+          "FuncInfo": {
+            "Pkg": "github.com/stretchr/testify/assert",
+            "IdentityName": "Equal",
+            "Name": "Equal",
+            "RecvType": "",
+            "RecvPtr": false,
+            "Generic": false,
+            "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+            "Line": 454,
+            "RecvName": "",
+            "ArgNames": [
+              "t",
+              "expected",
+              "actual",
+              "msgAndArgs"
+            ],
+            "ResNames": [
+              "_r0"
+            ],
+            "FirstArgCtx": false,
+            "LastResultErr": false
+          },
+          "Begin": 608083,
+          "End": 614875,
+          "Args": {
+            "t": {},
+            "expected": "{\"id\":1,\"name\":\"user1\"}",
+            "actual": "{\"id\":1,\"name\":\"user1\"}",
+            "msgAndArgs": null
+          },
+          "Results": {
+            "_r0": true
+          },
+          "Panic": false,
+          "Error": "",
+          "Children": [
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/stretchr/testify/assert",
+                "IdentityName": "validateEqualArgs",
+                "Name": "validateEqualArgs",
+                "RecvType": "",
+                "RecvPtr": false,
+                "Generic": false,
+                "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                "Line": 477,
+                "RecvName": "",
+                "ArgNames": [
+                  "expected",
+                  "actual"
+                ],
+                "ResNames": [
+                  "_r0"
+                ],
+                "FirstArgCtx": false,
+                "LastResultErr": true
+              },
+              "Begin": 609583,
+              "End": 612125,
+              "Args": {
+                "expected": "{\"id\":1,\"name\":\"user1\"}",
+                "actual": "{\"id\":1,\"name\":\"user1\"}"
+              },
+              "Results": {},
+              "Panic": false,
+              "Error": "",
+              "Children": [
+                {
+                  "FuncInfo": {
+                    "Pkg": "github.com/stretchr/testify/assert",
+                    "IdentityName": "isFunction",
+                    "Name": "isFunction",
+                    "RecvType": "",
+                    "RecvPtr": false,
+                    "Generic": false,
+                    "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                    "Line": 1851,
+                    "RecvName": "",
+                    "ArgNames": [
+                      "arg"
+                    ],
+                    "ResNames": [
+                      "_r0"
+                    ],
+                    "FirstArgCtx": false,
+                    "LastResultErr": false
+                  },
+                  "Begin": 610500,
+                  "End": 610750,
+                  "Args": {
+                    "arg": "{\"id\":1,\"name\":\"user1\"}"
+                  },
+                  "Results": {
+                    "_r0": false
+                  },
+                  "Panic": false,
+                  "Error": "",
+                  "Children": null
+                },
+                {
+                  "FuncInfo": {
+                    "Pkg": "github.com/stretchr/testify/assert",
+                    "IdentityName": "isFunction",
+                    "Name": "isFunction",
+                    "RecvType": "",
+                    "RecvPtr": false,
+                    "Generic": false,
+                    "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                    "Line": 1851,
+                    "RecvName": "",
+                    "ArgNames": [
+                      "arg"
+                    ],
+                    "ResNames": [
+                      "_r0"
+                    ],
+                    "FirstArgCtx": false,
+                    "LastResultErr": false
+                  },
+                  "Begin": 611583,
+                  "End": 611875,
+                  "Args": {
+                    "arg": "{\"id\":1,\"name\":\"user1\"}"
+                  },
+                  "Results": {
+                    "_r0": false
+                  },
+                  "Panic": false,
+                  "Error": "",
+                  "Children": null
+                }
+              ]
+            },
+            {
+              "FuncInfo": {
+                "Pkg": "github.com/stretchr/testify/assert",
+                "IdentityName": "ObjectsAreEqual",
+                "Name": "ObjectsAreEqual",
+                "RecvType": "",
+                "RecvPtr": false,
+                "Generic": false,
+                "File": "/Users/jianghushinian/go/pkg/mod/github.com/stretchr/testify@v1.9.0/assert/assertions.go",
+                "Line": 58,
+                "RecvName": "",
+                "ArgNames": [
+                  "expected",
+                  "actual"
+                ],
+                "ResNames": [
+                  "_r0"
+                ],
+                "FirstArgCtx": false,
+                "LastResultErr": false
+              },
+              "Begin": 614333,
+              "End": 614708,
+              "Args": {
+                "expected": "{\"id\":1,\"name\":\"user1\"}",
+                "actual": "{\"id\":1,\"name\":\"user1\"}"
+              },
+              "Results": {
+                "_r0": true
+              },
+              "Panic": false,
+              "Error": "",
+              "Children": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

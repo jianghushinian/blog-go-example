@@ -1,0 +1,33 @@
+{
+  "Begin": "2024-05-19T20:38:38.836287+08:00",
+  "Children": [
+    {
+      "FuncInfo": {
+        "Pkg": "github.com/jianghushinian/blog-go-example/test/xgo",
+        "IdentityName": "TestDemo",
+        "Name": "TestDemo",
+        "RecvType": "",
+        "RecvPtr": false,
+        "Generic": false,
+        "File": "~/blog-go-example/test/xgo/main_test.go",
+        "Line": 64,
+        "RecvName": "",
+        "ArgNames": [
+          "t"
+        ],
+        "ResNames": null,
+        "FirstArgCtx": false,
+        "LastResultErr": false
+      },
+      "Begin": 5750,
+      "End": 62334,
+      "Args": {
+        "t": {}
+      },
+      "Results": {},
+      "Panic": false,
+      "Error": "",
+      "Children": null
+    }
+  ]
+}
