@@ -2,6 +2,8 @@
 
 个人博客中 Go 相关的示例代码
 
+- [grequests](./grequests) - [GRequests: 让 HTTP 服务人类](https://jianghushinian.cn/2024/05/30/grequests-http-for-humans/)
+
 - [test/xgo](./test/xgo) - [xgo: 一款新鲜出炉的 Go 代码测试利器](https://jianghushinian.cn/2024/05/19/xgo-a-fresh-go-code-testing-tool/)
 
 - [2024-spring-festival-gala-magic](./2024-spring-festival-gala-magic) - [用 Go 语言实现刘谦 2024 春晚魔术，神还原「尼格买提」汗流浃背的尴尬瞬间!](https://jianghushinian.cn/2024/02/10/use-go-to-realize-liu-qian-s-2024-spring-festival-gala-magic/)

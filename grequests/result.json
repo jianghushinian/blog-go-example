@@ -1,0 +1,11 @@
+{
+  "args": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip", 
+    "Host": "httpbin.org", 
+    "User-Agent": "GRequests/0.10", 
+    "X-Amzn-Trace-Id": "Root=1-6657cca8-0011a54031fd6b3a406079d3"
+  }, 
+  "origin": "69.28.52.250", 
+  "url": "https://httpbin.org/get"
+}
