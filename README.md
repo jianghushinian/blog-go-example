@@ -2,6 +2,8 @@
 
 个人博客中 Go 相关的示例代码
 
+- [struct/empty](./struct/empty) - [Go 中空结构体的用法，我帮你总结全了！](https://jianghushinian.cn/2024/06/02/i-have-summarized-all-the-usages-of-empty-struct-in-go-for-you/)
+
 - [grequests](./grequests) - [GRequests: 让 HTTP 服务人类](https://jianghushinian.cn/2024/05/30/grequests-http-for-humans/)
 
 - [test/xgo](./test/xgo) - [xgo: 一款新鲜出炉的 Go 代码测试利器](https://jianghushinian.cn/2024/05/19/xgo-a-fresh-go-code-testing-tool/)
