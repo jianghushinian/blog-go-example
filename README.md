@@ -2,6 +2,10 @@
 
 个人博客中 Go 相关的示例代码
 
+关注我的公众号：「Go编程世界」，防走丢，接收文章更新通知。
+
+<img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
+
 - [wire](./wire) - [在 Go 中如何优雅的使用 wire 依赖注入工具提高开发效率？](https://jianghushinian.cn/2024/06/09/how-can-you-elegantly-use-dependency-injection-in-go-to-improve-development-efficiency/)
 
 - [struct/empty](./struct/empty) - [Go 中空结构体的用法，我帮你总结全了！](https://jianghushinian.cn/2024/06/02/i-have-summarized-all-the-usages-of-empty-struct-in-go-for-you/)
