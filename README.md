@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [struct/non-comparable](./struct/non-comparable) - [在 Go 中如何让结构体不可比较？](https://jianghushinian.cn/2024/06/15/how-to-make-structures-incomparable-in-go/)
+
 - [wire](./wire) - [在 Go 中如何优雅的使用 wire 依赖注入工具提高开发效率？](https://jianghushinian.cn/2024/06/09/how-can-you-elegantly-use-dependency-injection-in-go-to-improve-development-efficiency/)
 
 - [struct/empty](./struct/empty) - [Go 中空结构体的用法，我帮你总结全了！](https://jianghushinian.cn/2024/06/02/i-have-summarized-all-the-usages-of-empty-struct-in-go-for-you/)
