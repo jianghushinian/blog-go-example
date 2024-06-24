@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [log/slog](./log/slog) - [万字解析 Go 官方结构化日志包 slog](https://jianghushinian.cn/2024/06/24/go-s-official-structured-log-package-slog/)
+
 - [struct/non-comparable](./struct/non-comparable) - [在 Go 中如何让结构体不可比较？](https://jianghushinian.cn/2024/06/15/how-to-make-structures-incomparable-in-go/)
 
 - [wire](./wire) - [在 Go 中如何优雅的使用 wire 依赖注入工具提高开发效率？](https://jianghushinian.cn/2024/06/09/how-can-you-elegantly-use-dependency-injection-in-go-to-improve-development-efficiency/)
