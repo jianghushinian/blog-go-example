@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [struct/memory-layouts](./struct/memory-layouts) - [Go 语言中的结构体内存对齐你了解吗？](https://jianghushinian.cn/2024/07/07/do-you-understand-the-memory-alignment-of-structs-in-the-go/)
+
 - [log/slog](./log/slog) - [万字解析 Go 官方结构化日志包 slog](https://jianghushinian.cn/2024/06/24/go-s-official-structured-log-package-slog/)
 
 - [struct/non-comparable](./struct/non-comparable) - [在 Go 中如何让结构体不可比较？](https://jianghushinian.cn/2024/06/15/how-to-make-structures-incomparable-in-go/)
