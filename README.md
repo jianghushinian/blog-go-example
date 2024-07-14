@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [embed](./embed) - [在 Go 中如何使用 go:embed 指令嵌入静态文件](https://jianghushinian.cn/2024/07/12/go-embed/)
+
 - [struct/memory-layouts](./struct/memory-layouts) - [Go 语言中的结构体内存对齐你了解吗？](https://jianghushinian.cn/2024/07/07/do-you-understand-the-memory-alignment-of-structs-in-the-go/)
 
 - [log/slog](./log/slog) - [万字解析 Go 官方结构化日志包 slog](https://jianghushinian.cn/2024/06/24/go-s-official-structured-log-package-slog/)
