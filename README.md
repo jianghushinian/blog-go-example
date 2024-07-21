@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [autocorrect](./autocorrect) - [中文文案排版指北](https://jianghushinian.cn/2024/07/20/chinese-copywriting-guidelines/)
+
 - [embed](./embed) - [在 Go 中如何使用 go:embed 指令嵌入静态文件](https://jianghushinian.cn/2024/07/12/go-embed/)
 
 - [struct/memory-layouts](./struct/memory-layouts) - [Go 语言中的结构体内存对齐你了解吗？](https://jianghushinian.cn/2024/07/07/do-you-understand-the-memory-alignment-of-structs-in-the-go/)
