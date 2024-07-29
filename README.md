@@ -2,9 +2,11 @@
 
 个人博客中 Go 相关的示例代码
 
-关注我的公众号：「Go编程世界」，防走丢，接收文章更新通知。
+关注我的公众号：「Go 编程世界」，防走丢，接收文章更新通知。
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
+
+- [struct/encoding-json](./struct/encoding-json) - [在 Go 中如何使用反射实现简易版 encoding/json](https://jianghushinian.cn/2024/07/28/struct-encoding-json/)
 
 - [autocorrect](./autocorrect) - [中文文案排版指北](https://jianghushinian.cn/2024/07/20/chinese-copywriting-guidelines/)
 
