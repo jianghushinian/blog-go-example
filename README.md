@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [gracefulstop](./gracefulstop) - [Go 程序如何实现优雅退出？来看看 K8s 是怎么做的](https://jianghushinian.cn/2024/08/22/go-gracefulstop/)
+
 - [design-patterns/adapter](./design-patterns/adapter) - [适配器模式在 Go 语言中的应用](https://jianghushinian.cn/2024/08/04/go-design-patterns-adapter/)
 
 - [struct/encoding-json](./struct/encoding-json) - [在 Go 中如何使用反射实现简易版 encoding/json](https://jianghushinian.cn/2024/07/28/struct-encoding-json/)
