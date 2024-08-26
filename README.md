@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [design-patterns/builder](./design-patterns/builder) - [Builder 模式在 Go 语言中的应用](https://jianghushinian.cn/2024/08/26/go-design-patterns-builder/)
+
 - [gracefulstop](./gracefulstop) - [Go 程序如何实现优雅退出？来看看 K8s 是怎么做的](https://jianghushinian.cn/2024/08/22/go-gracefulstop/)
 
 - [design-patterns/adapter](./design-patterns/adapter) - [适配器模式在 Go 语言中的应用](https://jianghushinian.cn/2024/08/04/go-design-patterns-adapter/)
