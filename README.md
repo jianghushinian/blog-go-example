@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [error/error-exception-errno](./error/error-exception-errno) - [Go 错误处理指北：Error vs Exception vs ErrNo](https://jianghushinian.cn/2024/09/06/go-error-guidelines-error-exception-errno/)
+
 - [design-patterns/builder](./design-patterns/builder) - [Builder 模式在 Go 语言中的应用](https://jianghushinian.cn/2024/08/26/go-design-patterns-builder/)
 
 - [gracefulstop](./gracefulstop) - [Go 程序如何实现优雅退出？来看看 K8s 是怎么做的](https://jianghushinian.cn/2024/08/22/go-gracefulstop/)
