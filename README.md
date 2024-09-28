@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [terminal/colors](./terminal/colors) - [厌倦了黑底白字？用 Go 给终端点颜色瞧瞧！](https://jianghushinian.cn/2024/09/27/go-terminal-colors/)
+
 - [error/pkg-errors](./error/pkg-errors) - [Go 错误处理指北：pkg/errors 源码解读](https://jianghushinian.cn/2024/09/14/go-error-guidelines-pkg-errors/)
 
 - [error/error-exception-errno](./error/error-exception-errno) - [Go 错误处理指北：Error vs Exception vs ErrNo](https://jianghushinian.cn/2024/09/06/go-error-guidelines-error-exception-errno/)
