@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [error/defer-panic-recover](./error/defer-panic-recover) - [Go 错误处理指北：Defer、Panic、Recover 三剑客](https://jianghushinian.cn/2024/10/13/go-error-guidelines-defer-panic-recover/)
+
 - [error/handling-error](./error/handling-error) - [Go 错误处理指北：如何优雅的处理错误？](https://jianghushinian.cn/2024/10/01/go-error-guidelines-error-handling/)
 
 - [terminal/colors](./terminal/colors) - [厌倦了黑底白字？用 Go 给终端点颜色瞧瞧！](https://jianghushinian.cn/2024/09/27/go-terminal-colors/)
