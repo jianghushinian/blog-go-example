@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [x/sync/errgroup](./x/sync/errgroup) - [Go 并发控制：errgroup 详解](https://jianghushinian.cn/2024/11/04/x-sync-errgroup/)
+
 - [tools/addlicense](./tools/addlicense) - [一行命令为项目文件添加开源协议头](https://jianghushinian.cn/2024/10/20/go-tools-addlicense/)
 
 - [error/defer-panic-recover](./error/defer-panic-recover) - [Go 错误处理指北：Defer、Panic、Recover 三剑客](https://jianghushinian.cn/2024/10/13/go-error-guidelines-defer-panic-recover/)
