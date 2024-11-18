@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS Demo</title>
+</head>
+<body>
+<h1>CORS 简单请求演示</h1>
+<button id="fetchData">发送跨域请求</button>
+<pre id="output"></pre>
+
+<script>
+    document.getElementById('fetchData').addEventListener('click', () => {
+        fetch('http://localhost:8000/data') // 不同源（端口不同）
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                document.getElementById('output').textContent = `Error: ${error.message}`;
+            });
+    });
+</script>
+</body>
+</html>

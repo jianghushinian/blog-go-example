@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS Non-Simple Request Demo</title>
+</head>
+<body>
+<h1>CORS 非简单请求演示</h1>
+<button id="fetchData">发送跨域请求</button>
+<pre id="output"></pre>
+
+<script>
+    document.getElementById('fetchData').addEventListener('click', () => {
+        fetch('http://localhost:8000/data', {
+            method: 'POST', // 非简单请求，使用 POST
+            headers: {
+                'Content-Type': 'application/json', // 非简单请求的 Content-Type
+                'X-Custom-Header': 'CustomValue'    // 自定义请求头
+            },
+            // credentials: 'include',               // 允许携带凭据，开启后服务端不能同时设置 `Access-Control-Allow-Origin: *`，`Access-Control-Allow-Credentials: true`
+            body: JSON.stringify({name: '江湖十年'})  // 带有请求体
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                console.log(`X-jwt-token: ${response.headers.get("X-jwt-token")}`)
+                return response.json();
+            })
+            .then(data => {
+                document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                document.getElementById('output').textContent = `Error: ${error.message}`;
+            });
+    });
+</script>
+</body>
+</html>
