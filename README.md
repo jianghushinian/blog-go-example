@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [x/sync/singleflight](./x/sync/singleflight) - [Go 并发控制：singleflight 详解](https://jianghushinian.cn/2024/11/24/x-sync-singleflight/)
+
 - [cors](./cors) - [2024 都要过完了，我不允许你在 Go 中还不会解决 CORS 跨域问题](https://jianghushinian.cn/2024/11/18/go-cors/)
 
 - [sync/once](./sync/once) - [Go 并发控制：sync.Once 详解](https://jianghushinian.cn/2024/11/11/sync-once/)
