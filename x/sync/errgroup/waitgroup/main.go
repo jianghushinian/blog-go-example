@@ -24,6 +24,7 @@ func main() {
 			defer wg.Done() // 当 goroutine 完成时递减 WaitGroup 计数器
 
 			resp, e := http.Get(url)
+			// FIXME: 这里存在 race condition，可以加锁或者使用 channel 解决，`./race` 目录下有两个 demo 实现
 			if e != nil { // 发生错误返回，并记录该错误
 				err = e
 				return
