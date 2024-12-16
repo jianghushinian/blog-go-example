@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [context](./context) - [Go 源码是如何解决测试代码循环依赖问题的？](https://jianghushinian.cn/2024/12/16/context-x-test/)
+
 - [context](./context) - [Go 并发控制：context 源码解读](https://jianghushinian.cn/2024/12/09/context/)
 
 - [goroutine/id](./goroutine/id) - [在 Go 中如果获取 goroutine 的 id？](https://jianghushinian.cn/2024/12/04/goroutine-id/)
