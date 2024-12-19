@@ -92,7 +92,7 @@ func main() {
 	}
 
 	var wg sync.WaitGroup
-	errs := make([]error, len(urls)) // 使用缓冲通道 channel 收集错误
+	errs := make([]error, len(urls)) // 使用 slice 收集错误
 
 	for i, url := range urls {
 		wg.Add(1)
