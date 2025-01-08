@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [tempredis](./tempredis) - [超简单！用 Go 启动 Redis 实例](https://jianghushinian.cn/2025/01/08/go-tempredis/)
+
 - [sync/cond](./sync/cond) - [Go 并发控制：sync.Cond 详解](https://jianghushinian.cn/2024/12/29/sync-cond/)
 
 - [sync/waitgroup](./sync/waitgroup) - [Go 并发控制：sync.WaitGroup 详解](https://jianghushinian.cn/2024/12/23/sync-waitgroup/)
