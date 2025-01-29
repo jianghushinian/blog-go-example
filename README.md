@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [2025-spring-festival-magic](./2025-spring-festival-magic) - [用 Go 语言还原 2025 刘谦春晚魔术！](https://jianghushinian.cn/2025/01/30/2025-spring-festival-magic/)
+
 - [x/sync/semaphore](./x/sync/semaphore) - [Go 并发控制：semaphore 详解](https://jianghushinian.cn/2025/01/21/x-sync-semaphore/)
 
 - [os/exec](./os/exec) - [Go os/exec 极速入门](https://jianghushinian.cn/2025/01/16/os-exec/)
