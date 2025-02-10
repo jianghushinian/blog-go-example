@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [sync/map](./sync/map) - [Go 并发控制：sync.Map 详解](https://jianghushinian.cn/2025/02/10/sync-map/)
+
 - [iox/multi_bytes.go](./iox/multi_bytes.go) - [在 Go 中如何将 [][]byte 转为 io.Reader ？](https://jianghushinian.cn/2025/02/07/iox-multi-bytes/)
 
 - [2025-spring-festival-magic](./2025-spring-festival-magic) - [用 Go 语言还原 2025 刘谦春晚魔术！](https://jianghushinian.cn/2025/01/30/2025-spring-festival-magic/)
