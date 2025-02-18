@@ -72,7 +72,7 @@ func (q *Queue) ShutDown() {
 	defer q.cond.L.Unlock()
 
 	q.shuttingDown = true // 标记队列关闭
-	q.cond.Broadcast()
+	q.cond.Broadcast()    // 唤醒所有等待者，通知队列已关闭
 }
 
 // ShuttingDown 队列是否关闭
