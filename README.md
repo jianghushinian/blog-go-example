@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [cron](./cron) - [在 Go 中使用 cron 执行定时任务](https://jianghushinian.cn/2025/02/23/cron/)
+
 - [sync/map/concurrent-map](./sync/map/concurrent-map) - [Go 并发编程：如何实现一个并发安全的 map](https://jianghushinian.cn/2025/02/16/concurrent-map/)
 
 - [sync/map](./sync/map) - [Go 并发控制：sync.Map 详解](https://jianghushinian.cn/2025/02/10/sync-map/)
