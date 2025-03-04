@@ -1,0 +1,54 @@
+version: "3"
+
+services:
+  mariadb:
+    image: mariadb:11.4
+    container_name: nightwatch-mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: 'nightwatch'  # 设置 MariaDB 的 root 密码
+    volumes:
+      - nightwatch_mariadb_data:/var/lib/mysql  # 数据库数据持久化存储
+    ports:
+      - "33306:3306"  # 暴露 MariaDB 端口
+    restart: unless-stopped  # 确保容器失败时重新启动
+    networks:
+      - nightwatch  # 加入 nightwatch 网络
+
+  redis:
+    image: bitnami/redis:6.2.16
+    container_name: nightwatch-redis
+    environment:
+      - REDIS_PASSWORD=nightwatch
+      - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL # 安全加固
+      - ALLOW_EMPTY_PASSWORD=no # 必须设置密码
+      - BITNAMI_DEBUG=true # 调试模式（可选）
+    command: [
+      "redis-server",
+      "--requirepass", "nightwatch",
+      "--dir", "/data", # 指定持久化目录
+      "--dbfilename", "dump.rdb" # 明确指定文件名（可选）
+    ]
+    volumes:
+      - nightwatch_redis_data:/data
+    ports:
+      - "36379:6379" # 暴露 Redis 端口
+    restart: unless-stopped # 确保容器失败时重新启动
+    networks:
+      - nightwatch # 加入 nightwatch 网络
+    user: "1001" # bitnami 镜像默认用户（重要！）
+
+# 定义持久化存储的卷
+# 查看持久卷 docker volume ls
+# 删除指定持久卷 docker volume rm xxx
+# 删除未使用持久卷 docker volume prune
+volumes:
+  nightwatch_mariadb_data:
+    driver: local
+  nightwatch_redis_data:
+
+# 定义网络
+networks:
+  nightwatch:
+    driver: bridge
+
+# 启动 docker compose -p nightwatch -f docker-compose.yaml up -d
