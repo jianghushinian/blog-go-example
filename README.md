@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [nightwatch](./nightwatch) - [如何基于 Go 语言设计一个简洁优雅的分布式任务系统](https://jianghushinian.cn/2025/03/09/nightwatch/)
+
 - [redsync](./redsync) - [在 Go 中如何使用分布式锁解决并发问题？](https://jianghushinian.cn/2025/03/02/redsync/)
 
 - [cron](./cron) - [在 Go 中使用 cron 执行定时任务](https://jianghushinian.cn/2025/02/23/cron/)
