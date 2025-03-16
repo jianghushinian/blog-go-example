@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [directive/linkname](./directive/linkname) - [如何使用 go:linkname 指令访问 Go 包中的私有函数](http://jianghushinian.cn/2025/03/16/go-linkname/)
+
 - [nightwatch](./nightwatch) - [如何基于 Go 语言设计一个简洁优雅的分布式任务系统](https://jianghushinian.cn/2025/03/09/nightwatch/)
 
 - [redsync](./redsync) - [在 Go 中如何使用分布式锁解决并发问题？](https://jianghushinian.cn/2025/03/02/redsync/)
