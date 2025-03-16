@@ -17,8 +17,8 @@ func div(a, b int) int {
 
 // Handshake 模式（双方握手模式）
 
-//go:linkname Hello
-func Hello(name string) string {
+//go:linkname hello
+func hello(name string) string {
 	return "Hello " + name + "!"
 }
 

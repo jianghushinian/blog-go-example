@@ -1,11 +1,11 @@
 package foo
 
 import (
-	_ "fmt"
 	"time"
-	_ "unsafe"
-
 	// 被拉取的包需要显式导入（除了 runtime 包）
+
+	_ "fmt"
+	_ "unsafe"
 	_ "github.com/jianghushinian/blog-go-example/directive/linkname/bar"
 )
 
@@ -18,7 +18,7 @@ func Div(a, b int) int
 
 // Handshake 模式（双方握手模式）
 
-//go:linkname Hello github.com/jianghushinian/blog-go-example/directive/linkname/bar.Hello
+//go:linkname Hello github.com/jianghushinian/blog-go-example/directive/linkname/bar.hello
 func Hello(name string) string
 
 // 标准库默认不允许链接
