@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
+	_ "unsafe"
 
 	"github.com/jianghushinian/blog-go-example/directive/linkname/foo"
-
-	_ "unsafe"
 )
 
 //go:linkname TooLarge 	fmt.tooLarge

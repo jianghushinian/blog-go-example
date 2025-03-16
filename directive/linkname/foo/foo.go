@@ -3,9 +3,9 @@ package foo
 import (
 	"time"
 	// 被拉取的包需要显式导入（除了 runtime 包）
-
 	_ "fmt"
 	_ "unsafe"
+
 	_ "github.com/jianghushinian/blog-go-example/directive/linkname/bar"
 )
 
