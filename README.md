@@ -6,7 +6,9 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
-- [directive/linkname](./directive/linkname) - [如何使用 go:linkname 指令访问 Go 包中的私有函数](http://jianghushinian.cn/2025/03/16/go-linkname/)
+- [error/k8s-apimachinery-util-errors](./error/k8s-apimachinery-util-errors) - [使用 K8s Aggregate 聚合你的理错误列表](https://jianghushinian.cn/2025/03/29/k8s-aggregate-error/)
+
+- [error/go-multierror](./error/go-multierror) - [go-multierror: 更方便的处理你的错误列表](https://jianghushinian.cn/2025/03/23/go-multierror/)
 
 - [nightwatch](./nightwatch) - [如何基于 Go 语言设计一个简洁优雅的分布式任务系统](https://jianghushinian.cn/2025/03/09/nightwatch/)
 
