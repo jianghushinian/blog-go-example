@@ -6,7 +6,7 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
-- [error/k8s-apimachinery-util-errors](./error/k8s-apimachinery-util-errors) - [使用 K8s Aggregate 聚合你的理错误列表](https://jianghushinian.cn/2025/03/29/k8s-aggregate-error/)
+- [error/k8s-apimachinery-util-errors](./error/k8s-apimachinery-util-errors) - [使用 K8s Aggregate 聚合你的错误列表](https://jianghushinian.cn/2025/03/29/k8s-aggregate-error/)
 
 - [error/go-multierror](./error/go-multierror) - [go-multierror: 更方便的处理你的错误列表](https://jianghushinian.cn/2025/03/23/go-multierror/)
 
@@ -38,7 +38,7 @@
 
 - [context](./context) - [Go 并发控制：context 源码解读](https://jianghushinian.cn/2024/12/09/context/)
 
-- [goroutine/id](./goroutine/id) - [在 Go 中如果获取 goroutine 的 id？](https://jianghushinian.cn/2024/12/04/goroutine-id/)
+- [goroutine/id](./goroutine/id) - [在 Go 中如何获取 goroutine 的 id？](https://jianghushinian.cn/2024/12/04/goroutine-id/)
 
 - [x/sync/singleflight](./x/sync/singleflight) - [Go 并发控制：singleflight 详解](https://jianghushinian.cn/2024/11/24/x-sync-singleflight/)
 
