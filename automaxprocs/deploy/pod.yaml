@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: test-automaxprocs
+  namespace: default
+spec:
+  containers:
+    - name: without-automaxprocs
+      image: automaxprocs:latest
+      imagePullPolicy: IfNotPresent
+      command: [ "/app/gomaxprocs" ]
+      resources:
+        limits:
+          cpu: "1" # 对应 docker run 中 --cpus=1
+    - name: with-automaxprocs
+      image: automaxprocs:latest
+      imagePullPolicy: IfNotPresent
+      command: [ "/app/automaxprocs/automaxprocs" ]
+      resources:
+        limits:
+          cpu: "1"
+  restartPolicy: Never
+
+# 安装 kind
+# https://kind.sigs.k8s.io/docs/user/quick-start/#installation
+# 创建集群
+# kind create cluster
+# 查看集群列表
+# kind get clusters
+# 将 mac 本地镜像导入 kind K8s 集群
+# kind load docker-image automaxprocs:latest --name kind
