@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [automaxprocs](./automaxprocs) - [使用 Uber automaxprocs 正确设置 Go 程序线程数](https://jianghushinian.cn/2025/04/13/automaxprocs/)
+
 - [air](./air) - [效率工具：使用 air 热重载 Go 应用程序](https://jianghushinian.cn/2025/04/03/air/)
 
 - [error/k8s-apimachinery-util-errors](./error/k8s-apimachinery-util-errors) - [使用 K8s Aggregate 聚合你的错误列表](https://jianghushinian.cn/2025/03/29/k8s-aggregate-error/)
