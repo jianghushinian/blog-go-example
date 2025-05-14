@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [mcp-gateway](./mcp-gateway) - [使用 MCP Gateway 一键将你的 HTTP 接口转换成 MCP Server](https://jianghushinian.cn/2025/05/14/mcp-gateway/)
+
 - [goroutine/workerpool](./goroutine/workerpool) - [在 Go 语言中如何实现协程池](https://jianghushinian.cn/2025/05/09/goroutine-workerpool/)
 
 - [io/discard](./io/discard) - [Go 语言中你不知道的 io.Discard 妙用](https://jianghushinian.cn/2025/04/18/io-discard/)
