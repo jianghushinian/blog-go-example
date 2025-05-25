@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [fsm](./fsm) - [在 Go 中如何使用有限状态机优雅解决程序中状态转换问题](https://jianghushinian.cn/2025/05/25/fsm/)
+
 - [mcp-gateway](./mcp-gateway) - [使用 MCP Gateway 一键将你的 HTTP 接口转换成 MCP Server](https://jianghushinian.cn/2025/05/14/mcp-gateway/)
 
 - [goroutine/workerpool](./goroutine/workerpool) - [在 Go 语言中如何实现协程池](https://jianghushinian.cn/2025/05/09/goroutine-workerpool/)
