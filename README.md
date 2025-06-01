@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [fsm](./fsm) - [Go 语言 fsm 源码解读，这一次让你彻底学会有限状态机](https://jianghushinian.cn/2025/06/01/fsm-source-code/)
+
 - [fsm](./fsm) - [在 Go 中如何使用有限状态机优雅解决程序中状态转换问题](https://jianghushinian.cn/2025/05/25/fsm/)
 
 - [mcp-gateway](./mcp-gateway) - [使用 MCP Gateway 一键将你的 HTTP 接口转换成 MCP Server](https://jianghushinian.cn/2025/05/14/mcp-gateway/)
