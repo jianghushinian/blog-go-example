@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [empty/context-key](./struct/empty/context-key) - [在 Go 中为什么推荐使用空结构体作为 Context 的 key](https://jianghushinian.cn/2025/06/08/empty-struct-as-key-of-ctx/)
+
 - [fsm](./fsm) - [Go 语言 fsm 源码解读，这一次让你彻底学会有限状态机](https://jianghushinian.cn/2025/06/01/fsm-source-code/)
 
 - [fsm](./fsm) - [在 Go 中如何使用有限状态机优雅解决程序中状态转换问题](https://jianghushinian.cn/2025/05/25/fsm/)
