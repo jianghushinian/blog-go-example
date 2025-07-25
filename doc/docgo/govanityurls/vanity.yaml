@@ -1,0 +1,5 @@
+host: govanityurls.jianghushinian.cn
+
+paths:
+  /blog-go-example:
+    repo: https://github.com/jianghushinian/blog-go-example
