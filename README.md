@@ -6,6 +6,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+- [doc.go](./doc/docgo) - [Go 项目中的 doc.go 文件是干嘛的？](https://jianghushinian.cn/2025/07/27/doc-go/)
+
 - [iterator](./iterator) - [万字长文：彻底掌握 Go 1.23 中的迭代器](https://jianghushinian.cn/2025/07/17/go-iterator/)
 
 - [empty/context-key](./struct/empty/context-key) - [在 Go 中为什么推荐使用空结构体作为 Context 的 key](https://jianghushinian.cn/2025/06/08/empty-struct-as-key-of-ctx/)
