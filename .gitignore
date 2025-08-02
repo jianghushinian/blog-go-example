@@ -23,3 +23,8 @@ go.work.sum
 
 .idea/
 .DS_Store
+
+venv
+.venv
+
+node_modules/
