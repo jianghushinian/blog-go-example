@@ -6,6 +6,10 @@
 
 <img alt="Go编程世界" src="./assets/imgs/mpweixin.png" width="270px">
 
+加我微信，备注「加群」，拉你进 Go 语言学习交流群。
+
+<img alt="Go编程世界" src="./assets/imgs/weixin.jpg" width="270px">
+
 - [doc.go](./doc/docgo) - [Go 项目中的 doc.go 文件是干嘛的？](https://jianghushinian.cn/2025/07/27/doc-go/)
 
 - [iterator](./iterator) - [万字长文：彻底掌握 Go 1.23 中的迭代器](https://jianghushinian.cn/2025/07/17/go-iterator/)
