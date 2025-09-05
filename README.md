@@ -10,6 +10,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/weixin.jpg" width="270px">
 
+- [testing/synctest](./test/synctest) - [使用 testing/synctest 测试并发代码](https://jianghushinian.cn/2025/09/05/testing-synctest/)
+
 - [doc.go](./doc/docgo) - [Go 项目中的 doc.go 文件是干嘛的？](https://jianghushinian.cn/2025/07/27/doc-go/)
 
 - [iterator](./iterator) - [万字长文：彻底掌握 Go 1.23 中的迭代器](https://jianghushinian.cn/2025/07/17/go-iterator/)
