@@ -10,6 +10,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/weixin.jpg" width="270px">
 
+- [blades](./go-kratos/blades) - [AI Agent 生态再添一员，Kratos 带着他的武器 Blades 走来了！](https://jianghushinian.cn/2025/09/29/go-kratos-blades/)
+
 - [sync/pool](./sync/pool) - [Go 并发控制：sync.Pool 详解](https://jianghushinian.cn/2025/09/07/sync-pool/)
 
 - [testing/synctest](./test/synctest) - [使用 testing/synctest 测试并发代码](https://jianghushinian.cn/2025/09/05/testing-synctest/)
