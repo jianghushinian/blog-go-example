@@ -10,6 +10,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/weixin.jpg" width="270px">
 
+- [mcp-go-sdk](./mcp/sdk) - [MCP 官方 Go SDK v1.0.0 正式发布：Go 生态的模型上下文协议步入稳定时代](https://jianghushinian.cn/2025/10/08/mcp-go-sdk/)
+
 - [blades](./go-kratos/blades) - [AI Agent 生态再添一员，Kratos 带着他的武器 Blades 走来了！](https://jianghushinian.cn/2025/09/29/go-kratos-blades/)
 
 - [sync/pool](./sync/pool) - [Go 并发控制：sync.Pool 详解](https://jianghushinian.cn/2025/09/07/sync-pool/)
