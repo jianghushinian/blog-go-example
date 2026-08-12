@@ -15,7 +15,7 @@ services:
       - nightwatch  # 加入 nightwatch 网络
 
   redis:
-    image: bitnami/redis:6.2.16
+    image: soldevelo/redis:6.2.16
     container_name: nightwatch-redis
     environment:
       - REDIS_PASSWORD=nightwatch
