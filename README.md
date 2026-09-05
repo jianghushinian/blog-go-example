@@ -10,6 +10,10 @@
 
 <img alt="Go编程世界" src="./assets/imgs/weixin.jpg" width="270px">
 
+- [multi-goproxy](./multi-goproxy) - [Go GOPROXY 兜底链的坑：从一次诡异的 CI lint 失败说起](https://jianghushinian.cn/2026/09/05/multi-goproxy/)
+
+- [2026-spring-festival-magic](./2026-spring-festival-magic) - [用 Go 语言还原 2026 春晚《惊喜定格》魔术！](https://jianghushinian.cn/2026/02/17/2026-spring-festival-magic/)
+
 - [mcp-go-sdk](./mcp/sdk) - [MCP 官方 Go SDK v1.0.0 正式发布：Go 生态的模型上下文协议步入稳定时代](https://jianghushinian.cn/2025/10/08/mcp-go-sdk/)
 
 - [blades](./go-kratos/blades) - [AI Agent 生态再添一员，Kratos 带着他的武器 Blades 走来了！](https://jianghushinian.cn/2025/09/29/go-kratos-blades/)
