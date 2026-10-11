@@ -10,6 +10,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/weixin.jpg" width="270px">
 
+- [test/go127](./test/go127) - [Go 1.27 测试相关变化详解：新特性与升级避坑](https://jianghushinian.cn/2026/10/11/go1.27-testing-changes/)
+
 - [multi-goproxy](./multi-goproxy) - [Go GOPROXY 兜底链的坑：从一次诡异的 CI lint 失败说起](https://jianghushinian.cn/2026/09/05/multi-goproxy/)
 
 - [2026-spring-festival-magic](./2026-spring-festival-magic) - [用 Go 语言还原 2026 春晚《惊喜定格》魔术！](https://jianghushinian.cn/2026/02/17/2026-spring-festival-magic/)
