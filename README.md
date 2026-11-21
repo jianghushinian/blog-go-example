@@ -10,6 +10,8 @@
 
 <img alt="Go编程世界" src="./assets/imgs/weixin.jpg" width="270px">
 
+- [test/race](./test/race) - [Go 竞态检测器到底在检测什么？从 data race 到 happens-before](https://jianghushinian.cn/2026/11/21/go-race-detector/)
+
 - [goroutine/leak](./goroutine/leak) - [Go 1.27 新增 goroutine leak profiler：在生产环境中定位 goroutine 泄漏](https://jianghushinian.cn/2026/11/11/goroutine-leak-profiles/)
 
 - [test/go127](./test/go127) - [Go 1.27 测试相关变化详解：新特性与升级避坑](https://jianghushinian.cn/2026/10/11/go1.27-testing-changes/)
